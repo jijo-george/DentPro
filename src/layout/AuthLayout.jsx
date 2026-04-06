@@ -1,4 +1,9 @@
 const AuthLayout = () => {
-    return (<></>)
-}
+  return (
+    <div className="flex flex-row">
+      dsddsds
+      <div></div>
+    </div>
+  );
+};
 export default AuthLayout;
