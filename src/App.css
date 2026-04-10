@@ -182,3 +182,84 @@
     border-right-color: var(--border);
   }
 }
+.auth-layout {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  min-height: 100vh;
+}
+.auth-layout .logo-section {
+  position: relative;
+  background: #0f4d41;
+  padding: 48px 50px;
+  overflow: hidden;
+  min-height: 100vh;
+}
+.logo-section .bg-circle {
+  position: absolute;
+  border-radius: 50%;
+}
+.logo-section .bg-circle.bg1 {
+  width: 520px;
+  height: 520px;
+  background:rgba(255,255,255,0.06);
+  top: -120px;
+  left: -120px;
+}
+.logo-section .bg-circle.bg2 {
+  width: 400px;
+  height: 400px;
+  background: #0f4d41;
+  top: -60px;
+  left: -60px;
+}
+.logo-section .bg-circle.bg3 {
+  width: 420px;
+  height: 420px;
+  background:rgba(255,255,255,0.06);
+  bottom: -223px;
+  right: -120px;
+}
+.logo-section .bg-circle.bg4 {
+  width: 300px;
+  height: 300px;
+  background: #0f4d41;
+  bottom: -159px;
+  right: -60px;
+}
+.Logo{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+}
+.Logo-icon{
+  width: 48px;
+  height: 48px;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+.Logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.Logo-text-main{
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+}
+.Logo-text p{
+  color: #087a6b;
+  font-size: 12px;
+  margin-top: 2px;
+  letter-spacing: -0.5px;
+}
+
