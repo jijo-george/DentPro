@@ -11,12 +11,14 @@ const AuthLayout = ({ children }) => {
 
         <div className="Logo">
           <div className="Logo-icon">🦷</div>
-          <div className="Logo-text flex flex-col items-start">
-            <h1 className="Logo-text-main">DentPro</h1>
-            <p>Your Dental Care Partner</p>
+          <div className="Logo-text">
+            <div className="Logo-text-main">DentPro</div>
+            <p>Multi-Clinic Management</p>
           </div>
         </div>
-
+        <div>
+          
+        </div>
         <div className="bg-circle bg3" />
         <div className="bg-circle bg4" />
       </div>
