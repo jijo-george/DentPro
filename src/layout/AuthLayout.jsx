@@ -20,7 +20,9 @@ const AuthLayout = ({ children }) => {
             <p>Your Dental Care Partner</p>
           </div>
         </div>
-
+        <div>
+          
+        </div>
         <div className="bg-circle bg3" />
         <div className="bg-circle bg4" />
       </div>

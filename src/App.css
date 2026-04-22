@@ -248,13 +248,12 @@
 .Logo-text {
   display: flex;
   flex-direction: column;
-  gap: 6px;
 }
 .Lg-text-main{
   color: #fff;
   font-size: 20px;
   font-family: 'Fraunces', serif;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.3px;
 }
 .Lg-text p{
