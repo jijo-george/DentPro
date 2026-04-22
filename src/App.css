@@ -243,23 +243,67 @@
   align-items: center;
   justify-content: center;
   font-size: 22px;
+  border-radius: 14px;
 }
 .Logo-text {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
-.Logo-text-main{
+.Lg-text-main{
   color: #fff;
   font-size: 20px;
   font-family: 'Fraunces', serif;
   font-weight: 500;
   letter-spacing: -0.3px;
 }
-.Logo-text p{
+.Lg-text p{
   color: #087a6b;
   font-size: 12px;
-  margin-top: 2px;
   letter-spacing: -0.5px;
 }
 
+.auth-right{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 48px 50px;
+  position: relative;
+  @media (max-width: 768px) {
+    padding: 32px 20px;
+  }
+}
+.form-card{
+  width: 100%;
+  max-width: 400px;
+}
+.form-header{
+  margin-bottom: 20px;
+}
+.welcome-row{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.welcome-row h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #0f2623;
+    letter-spacing: -0.8px;
+}
+.wave{
+  font-size: 20px;
+}
+.form-header p{
+  color:#7a9e99;
+  font-size: 14px;
+}
+.role-label{
+  color: #3d5c57;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  letter-spacing: -0.8px;
+}
