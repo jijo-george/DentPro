@@ -3,6 +3,19 @@
 @tailwind utilities;
 
 :root {
+  --teal-deep: #0d4f47;
+    --teal-mid: #1a6b61;
+    --teal-bright: #2a9d8f;
+    --teal-light: #52c4b5;
+    --teal-pale: #e8f7f5;
+    --teal-mist: #f0faf9;
+    --accent-gold: #e9c46a;
+    --text-dark: #0f2623;
+    --text-mid: #3d5c57;
+    --text-soft: #7a9e99;
+    --white: #ffffff;
+    --border: #c8e8e4;
+    --error: #e76f51;
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;

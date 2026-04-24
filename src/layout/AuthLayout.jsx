@@ -20,8 +20,36 @@ const AuthLayout = ({ children }) => {
             <p>Your Dental Care Partner</p>
           </div>
         </div>
-        <div>
-          
+        <div className="lg-Content">
+          <h2>
+            Simplifying <em> Dental Practice </em> Management
+          </h2>
+          <p>
+            A centralized platform for managing multiple dental clinics with
+            complete data isolation, role-based access, and real-time insights.
+          </p>
+          <div className="features">
+            <div className="feature">
+              <div className="feature-icon">✓</div>
+              <span>Multi-clinic tenant isolation</span>
+            </div>
+            <div className="feature">
+              <div className="feature-icon">✓</div>
+              <span>Role-based permissions engine</span>
+            </div>
+            <div className="feature">
+              <div className="feature-icon">✓</div>
+              <span>JWT + Refresh token security</span>
+            </div>
+            <div className="feature">
+              <div className="feature-icon">✓</div>
+              <span>Real-time appointment scheduling</span>
+            </div>
+            <div className="feature">
+              <div className="feature-icon">✓</div>
+              <span>Integrated billing & analytics</span>
+            </div>
+          </div>
         </div>
         <div className="bg-circle bg3" />
         <div className="bg-circle bg4" />
