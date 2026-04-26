@@ -301,6 +301,26 @@
   align-items: center;
   gap: 14px;
 }
+.feature-icon
+{
+  border-radius: 50%;
+  background-color: rgba(42,157,143,0.25);
+  width: 26px;
+  height:26px;
+  border:1px solid rgba(82,196,181,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--teal-light);
+  font-size: 11px;
+  flex-shrink: 0;
+
+}
+.feature span{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.75);
+}
 .auth-right{
   display: flex;
   justify-content: center;
