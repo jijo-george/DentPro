@@ -51,6 +51,20 @@ const AuthLayout = ({ children }) => {
             </div>
           </div>
         </div>
+        <div className="auth-footer">
+            <div className="stat">
+              <div className="stat-num">1000+</div>
+              <div className="stat-label">Happy Patients</div>
+            </div>
+            <div className="stat">
+              <div className="stat-num">50+</div>
+              <div className="stat-label">Dental Clinics</div>
+            </div>
+            <div className="stat">
+              <div className="stat-num">100+</div>
+              <div className="stat-label">Happy Dentists</div>
+            </div>
+        </div>
         <div className="bg-circle bg3" />
         <div className="bg-circle bg4" />
       </div>
